@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="548c0bfc-65ac-4afc-857f-e14564a35654">
+  <name>БуторинАС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Буторин А.С. 70200005</value>
+  </synonym>
+  <comment>0</comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="c7766066-0a43-4ba6-b4cc-7bab8763484f"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="a99e4e6d-6752-40fd-8a8e-c828650309e4"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="4876c59e-677b-4e6b-a740-5bdb3e5c9d96"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="a0301b42-0210-4667-8f68-7d8f907ee83c"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="6702dd5f-c368-4d18-90e3-25023c6e6067"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="6275284e-f2ff-4ea6-95c2-9a4e83ff9be5"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="e8cb97c7-c9e2-4d46-b85e-5add57624699"/>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Буторин А.С. 70200005</vendor>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
+  <languages uuid="a696b998-584a-4cc3-aa35-187007706c4c">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ВакансииИКандидаты</subsystems>
+  <subsystems>Subsystem.Справочники</subsystems>
+  <subsystems>Subsystem.Документы</subsystems>
+  <subsystems>Subsystem.Отчеты</subsystems>
+  <subsystems>Subsystem.ОрганизацияИКлиенты</subsystems>
+  <subsystems>Subsystem.Прочее</subsystems>
+  <roles>Role.Администратор</roles>
+  <roles>Role.Ркрутер</roles>
+  <roles>Role.Гость</roles>
+  <commonModules>CommonModule.РаботаСВакансиямиСервер</commonModules>
+  <definedTypes>DefinedType.Рубли</definedTypes>
+  <constants>Constant.ИННОрганизации</constants>
+  <constants>Constant.НазваниеОрганизции</constants>
+  <constants>Constant.СистемаНалогооблажения</constants>
+  <commonForms>CommonForm.ФормаОрганизации</commonForms>
+  <catalogs>Catalog.Кандидаты</catalogs>
+  <catalogs>Catalog.Вакансии</catalogs>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.УчебноеЗаведение</catalogs>
+  <catalogs>Catalog.Резюме</catalogs>
+  <catalogs>Catalog.СистемаНалогообложения</catalogs>
+  <catalogs>Catalog.ИсточникПривлечения</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.СтатьиЗатратНаПодбор</catalogs>
+  <catalogs>Catalog.ВидыТестирования</catalogs>
+  <catalogs>Catalog.Валюта</catalogs>
+  <catalogs>Catalog.ПричиныОтказа</catalogs>
+  <catalogs>Catalog.ГрафикРабот</catalogs>
+  <catalogs>Catalog.ДолжностинашейОрганизации</catalogs>
+  <documents>Document.Договор</documents>
+  <documents>Document.ЗаявкаНаПодбор</documents>
+  <documents>Document.УтверждениеБюджета</documents>
+  <documents>Document.ПубликацияВакансии</documents>
+  <documents>Document.НазначениеИнтервью</documents>
+  <documents>Document.РезультатИнтервью</documents>
+  <documents>Document.ТестированиеКандидата</documents>
+  <documents>Document.ПредложениеОРаботе</documents>
+  <documents>Document.ЗакрытиеВакансии</documents>
+  <documents>Document.СписаниеСредствНаПодбор</documents>
+  <enums>Enum.Статус</enums>
+  <enums>Enum.Образование</enums>
+  <enums>Enum.Приоритет</enums>
+  <enums>Enum.ИсточникПривлечения</enums>
+  <enums>Enum.СтатусОпубликованнойВакансии</enums>
+  <reports>Report.Отмены</reports>
+  <reports>Report.СтруктураЗатратНаРекрутинг</reports>
+  <reports>Report.КоличествоОткрытыхИзакрытыхВакансий</reports>
+  <reports>Report.СтоимостьПривлечения</reports>
+  <reports>Report.ВоронкаКандидатов</reports>
+  <dataProcessors>DataProcessor.РабочееМестоРекрутера</dataProcessors>
+  <informationRegisters>InformationRegister.ИсторияКандидатов</informationRegisters>
+  <informationRegisters>InformationRegister.ОткликиКандидатов</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ПоступленияДС</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ЗатратыНаПодбор</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.БюджетМаркетингаHR</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ПланВакансий</accumulationRegisters>
+  <businessProcesses>BusinessProcess.ОбработкаВакансии</businessProcesses>
+  <tasks>Task.Задача1</tasks>
+</mdclass:Configuration>

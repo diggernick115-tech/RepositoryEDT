@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58963067-cb7b-4dff-a923-6c3d861c10cd">
+  <name>Администратор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администратор</value>
+  </synonym>
+</mdclass:Role>

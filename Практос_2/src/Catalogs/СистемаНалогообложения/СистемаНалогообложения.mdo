@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8f63d82-663c-442f-8383-35ab5a0c2d8a">
+  <producedTypes>
+    <objectType typeId="e14144ac-e87a-4520-b7c1-4a22e03c5211" valueTypeId="910acef2-a617-486f-851d-7936ae318587"/>
+    <refType typeId="bca117a1-5efd-4535-8e36-8a365fe945a7" valueTypeId="dc0874f0-7b48-4b71-99a0-c4bf6ce3756a"/>
+    <selectionType typeId="8c8547de-dfc3-42cb-a3bf-20ef41447947" valueTypeId="1dac8d1d-f3d5-43d9-98a6-49765c99c4b2"/>
+    <listType typeId="9c9d434c-f95b-4701-bc76-2569f7b91fcf" valueTypeId="527b6bfe-2bb2-4e1e-9475-c1e3cc37be73"/>
+    <managerType typeId="2a96c926-f148-4cd5-96ca-316f0d9f3fd0" valueTypeId="d447ccb2-ea85-433d-a96b-dbef61742fa3"/>
+  </producedTypes>
+  <name>СистемаНалогообложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Система налогообложения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СистемаНалогообложения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СистемаНалогообложения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>30</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="18195062-a3ec-4064-8641-e5dd4e94aae7">
+    <name>Ставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

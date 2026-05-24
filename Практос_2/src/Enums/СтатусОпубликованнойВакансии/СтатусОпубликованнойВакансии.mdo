@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc683f03-3f84-4247-b816-995505680cff">
+  <producedTypes>
+    <refType typeId="b11eca3a-0171-457f-929b-29b402005f75" valueTypeId="287c9a01-55b1-4b1f-90cc-5ec1cb382cf6"/>
+    <listType typeId="9a728701-e233-427d-bbe3-1328cf0d1912" valueTypeId="f3fa48f7-7427-4bf4-99ec-e3306b47bd09"/>
+    <managerType typeId="3bca6806-f20f-42e6-8132-8b0611f252dc" valueTypeId="bd4f7bc7-65b4-441a-931f-8d6cb67164f8"/>
+  </producedTypes>
+  <name>СтатусОпубликованнойВакансии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус опубликованной вакансии</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="46a18d0a-7dbb-4e3c-980e-62364e7253e5">
+    <name>Открыта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открыта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b6448451-d144-4de7-9821-e6c741f1e6d6">
+    <name>ПоискСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск сотрудника</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ca48532c-22ab-4d47-891e-2229718788fd">
+    <name>ВОжидании</name>
+    <synonym>
+      <key>ru</key>
+      <value>В ожидании</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="25031f4f-d61e-4711-818b-8c0d8b323f7c">
+    <name>Отменена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d8183793-c953-4240-9b39-40d23638ca7e">
+    <name>Закрыта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыта</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

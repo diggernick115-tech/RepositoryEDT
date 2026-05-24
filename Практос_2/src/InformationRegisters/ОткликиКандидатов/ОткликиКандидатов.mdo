@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2d33450-abee-4545-a224-5e0bda908bc6">
+  <producedTypes>
+    <selectionType typeId="1c8350bc-3b27-430c-a5aa-8427f7171189" valueTypeId="f5820861-1d6d-47f8-9704-46037dc0590c"/>
+    <listType typeId="ba485c26-b0fe-49bf-8dd2-ebae93704ead" valueTypeId="fd6b4978-2ec2-437e-9052-01101d77fb33"/>
+    <managerType typeId="a4f96462-a288-4336-9155-cf1528b6191b" valueTypeId="41b8eee5-0d71-4af7-a7e9-4d519b376e9e"/>
+    <recordSetType typeId="b8b4d496-c1d8-471e-b254-de04d2b5ea62" valueTypeId="d8e091e9-e0bf-4cfb-b9ea-6dcae6534658"/>
+    <recordKeyType typeId="1fd2eab9-8b14-4972-94f0-c86cb7bf1b33" valueTypeId="4e8cb616-e484-43b9-9d19-38aa162e8a52"/>
+    <recordType typeId="52d78b41-d1a7-4a10-a2de-08a5e5642434" valueTypeId="367f04d1-1d3e-47f2-b35b-aa17c442758a"/>
+    <recordManagerType typeId="f98a19e4-f23d-4ee2-a166-9d8e4aef3d89" valueTypeId="2a0bd00e-54d0-43ba-8e7d-a3d6d4f70a75"/>
+  </producedTypes>
+  <name>ОткликиКандидатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отклики кандидатов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ОткликиКандидатов.Form.ФормаЗаписи</defaultRecordForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="92ba21f1-16bc-431c-8252-cd9beb73f736">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Статус</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="52ecb44f-f90a-40ca-88a8-89d3db3fba3d">
+    <name>СопроводительноеПисьмо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопроводительное письмо</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <dimensions uuid="a5390678-3db8-439e-88a1-8c6d82d5dc25">
+    <name>Кандидат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кандидат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кандидаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="60b47838-6ba1-4384-9bf4-5daa87d19cfb">
+    <name>Публикация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Публикация</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПубликацияВакансии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="d3c6f301-2161-43d3-a432-0e2fe45d80d4">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

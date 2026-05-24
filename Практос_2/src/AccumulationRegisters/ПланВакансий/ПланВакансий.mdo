@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2da22848-ccfd-4fa2-a658-2ed658bd43fc">
+  <producedTypes>
+    <selectionType typeId="6b5e1b98-f752-45ea-94ab-6a091354f053" valueTypeId="1d894a07-9b92-4775-bf54-9c8b0bd4afe5"/>
+    <listType typeId="a23a55bc-84b9-415d-90ad-33376f38a6c1" valueTypeId="306f2663-c8d2-4aab-9458-d8e4d13efbc9"/>
+    <managerType typeId="3a063351-613e-4663-b8a2-2a97407b4eed" valueTypeId="9f12b2b3-c5fc-4928-b949-6bcd60f4bf86"/>
+    <recordSetType typeId="c33ef1fe-eb80-4e81-923c-fc134b01fd80" valueTypeId="586bacca-5b55-48f4-8b7d-039a305368f0"/>
+    <recordKeyType typeId="c4a1c85a-beed-4a43-9f2a-0cc643220dc2" valueTypeId="794849d4-bd3b-4b7e-bc08-0afab4db5711"/>
+    <recordType typeId="f58d397f-0fed-4502-a4f4-ada39bece1bd" valueTypeId="562eb169-8451-4bf6-a923-a189ec317533"/>
+  </producedTypes>
+  <name>ПланВакансий</name>
+  <synonym>
+    <key>ru</key>
+    <value>План вакансий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <explanation>
+    <key>ru</key>
+    <value>Так как регистр сведений хранит абсолютные значения (состояния) на ось времени, а не накапливает итоги, логика заполнения ресурса Количество в документах будет следующей:
+
+В документе ЗаявкаНаПодбор в регистр пишется то количество, которое мы открываем (например, 2).
+
+В документе ЗакрытиеВакансии в регистр пишется значение 0 (вакансия закрыта, потребность обнулилась) ИЛИ текущее оставшееся количество, если вакансия закрыта частично.
+
+Совет для диплома: Если вы хотите, чтобы система сама автоматически считала остатки (План минус Факт), на защите лучше назвать этот объект Регистром накопления. Если же вы оставляете его Регистром сведений, напишите в ВКР, что он используется для «хранения истории утвержденных срезов плановой потребности в персонале».</value>
+  </explanation>
+  <resources uuid="9fb9f547-0fbe-42ff-b894-9c00f9faf643">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="02dc927a-44ea-4478-9c83-4f535a99113b">
+    <name>Клиенты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиенты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="17e3e0bd-7dec-45ab-932c-ff70bd9c040c">
+    <name>Вакансии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вакансии</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Вакансии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

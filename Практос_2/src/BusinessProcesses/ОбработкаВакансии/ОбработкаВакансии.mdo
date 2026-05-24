@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae929706-723f-455e-b5ed-fa6be53d305a">
+  <producedTypes>
+    <objectType typeId="a27e9232-bf85-4eb6-a3ed-d86489590d7f" valueTypeId="b8b0f30d-18b6-4b17-8f08-947c19a0a9f9"/>
+    <refType typeId="7ba8a32a-6a4c-46ad-ab80-c94aca5ffac9" valueTypeId="968ae472-de9f-4bbe-bc79-da087aa86b72"/>
+    <selectionType typeId="fbdd06f9-25c2-402d-ae5b-3820e3a44b79" valueTypeId="e43f40d8-52a5-4c81-b8e8-652d0620490d"/>
+    <listType typeId="b3d32558-81fa-4e5b-a477-73ff0b829fbd" valueTypeId="73d27a80-e230-49f3-a67e-f163a06cd5bc"/>
+    <managerType typeId="d57cd3fb-560f-4a76-a59e-1965fff2ee12" valueTypeId="9244e651-8853-4764-bd45-eb642cdd232b"/>
+    <routePointRef typeId="28abc286-04ab-40aa-bac1-589d7f0f4309" valueTypeId="e00ef621-b021-4634-ad6a-b812d7bf0c33"/>
+  </producedTypes>
+  <name>ОбработкаВакансии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка вакансии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>BusinessProcess.ОбработкаВакансии.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <editType>InDialog</editType>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <task>Task.Задача1</task>
+  <createTaskInPrivilegedMode>true</createTaskInPrivilegedMode>
+  <attributes uuid="6eea9135-6e94-4a45-8986-dbc0324dc070">
+    <name>Реквизит1</name>
+    <type>
+      <types>DocumentRef.ПредложениеОРаботе</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:BusinessProcess>

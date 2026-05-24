@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9acb56b-2f68-4896-95ea-6719bfabc757">
+  <producedTypes>
+    <objectType typeId="f3800051-540c-431e-a170-241ae06a6cdd" valueTypeId="62a1c65c-a35e-4c1a-87db-631835e0c99e"/>
+    <refType typeId="f8994b00-f18e-4c9d-8524-3032d3173698" valueTypeId="3d46336d-3155-4ff9-99cb-2e0fd2fcfa7d"/>
+    <selectionType typeId="ea9926ef-b08b-4c8a-bea5-fff25ce02b28" valueTypeId="241a2349-1f29-4c9c-8116-06dc490cd84e"/>
+    <listType typeId="785d9bf4-4364-49cd-8267-07cb2987d184" valueTypeId="7b75df6d-c887-4110-a611-3658c893c64a"/>
+    <managerType typeId="ab8d8fce-d9be-440c-910d-eaf25480096c" valueTypeId="6988dc2b-9181-4f63-8ab1-cde5382e841d"/>
+  </producedTypes>
+  <name>ПредложениеОРаботе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предложение о работе</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПредложениеОРаботе.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>InformationRegister.ИсторияКандидатов</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="c864d7ff-efd7-45bb-9fcf-9794367cba82">
+    <name>Кандидат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кандидат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кандидаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="04cab0a6-dfdc-4fb8-adae-9fed6a6611cd">
+    <name>Рекрутер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекрутер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c5b36bfb-7767-4f49-9bee-cd0d52120192">
+    <name>Вакансия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вакансия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Вакансии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f3af2d31-e257-4f55-9f70-b211f9c31e58">
+    <name>ЭтапПодбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этап подбора</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Статус</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8e40096f-000e-466d-b54e-2af0689cbe4f">
+    <name>ПланируемаяДатаВыходаКандидатаНаРаботу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планируемая дата выхода кандидата на работу</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

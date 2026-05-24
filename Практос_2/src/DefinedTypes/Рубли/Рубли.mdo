@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c4e81c7-ad5b-4c3d-90e6-1d71bf4bacb9">
+  <producedTypes>
+    <containerType typeId="4e79f487-cca5-4a7b-bbe2-712751555172" valueTypeId="c7fc8798-9ad6-4fa2-9b20-898695005d6c"/>
+  </producedTypes>
+  <name>Рубли</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рубли</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <scale>2</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+</mdclass:DefinedType>

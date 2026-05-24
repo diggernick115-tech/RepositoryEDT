@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d311af6-2a23-462a-87a0-413cb224e38d">
+  <producedTypes>
+    <objectType typeId="ec17790d-afd0-4c8c-92d1-f78e5b09afdf" valueTypeId="b953813f-cb8d-41d2-99f3-1bfa46e836c1"/>
+    <managerType typeId="a03ad9d7-d06e-4bc7-bde7-d6de15333312" valueTypeId="7f396f41-ca6d-47f2-8611-989f1b045af2"/>
+  </producedTypes>
+  <name>КоличествоОткрытыхИзакрытыхВакансий</name>
+  <synonym>
+    <key>ru</key>
+    <value>КоличествоОткрытыхИзакрытыхВакансий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.КоличествоОткрытыхИзакрытыхВакансий.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="8b9c8146-c9f0-4866-ae87-68ff247d454d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

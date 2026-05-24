@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09bac44a-e3f1-42a1-8b57-b94411cde0ad">
+  <producedTypes>
+    <refType typeId="5d07a7fb-419d-4c53-8b42-83d1700fe836" valueTypeId="0c777bb1-680c-4873-a197-a1f16f3b9d07"/>
+    <listType typeId="0fd3e840-b952-4696-a24c-a9e70dc19f87" valueTypeId="9dcc63cb-54eb-440f-93e0-4cba082dd9c7"/>
+    <managerType typeId="2c244019-f16d-4585-809e-7c75f56679d5" valueTypeId="352dc94d-ce81-45e3-81eb-8e76b07a09a3"/>
+  </producedTypes>
+  <name>ИсточникПривлечения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источник привлечения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1e4c712c-7ddc-418a-ba6b-c11c7884bad7">
+    <name>РаботныеСайты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работные сайты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6cab8310-e488-4f78-bab6-67625a4cb182">
+    <name>СоцСети</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соц сети</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b542c400-5055-4065-b8ac-6b6d28e43778">
+    <name>ПрофСообщества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проф сообщества</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="864ad37a-567c-4777-81ef-014ead03ec6b">
+    <name>РеферальнаяПрограмма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реферальная программа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="99406015-21f4-444d-a65d-e2c8146673ff">
+    <name>ВУЗы</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВУЗы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

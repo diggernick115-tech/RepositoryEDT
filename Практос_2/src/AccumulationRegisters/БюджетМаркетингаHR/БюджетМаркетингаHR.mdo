@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b9b19ca-2684-4b38-b8bf-848bce29b131">
+  <producedTypes>
+    <selectionType typeId="fee43d60-bf6d-47e3-a5e4-feb39f822bf2" valueTypeId="63e5558c-7a19-4e79-93ff-0e1f166e8840"/>
+    <listType typeId="0aec59b0-9da8-4f2f-b3ae-f228889b0368" valueTypeId="3f605f79-077d-4a26-b007-19b83c96f7ea"/>
+    <managerType typeId="f96432ce-0d50-4979-9030-547cb401004c" valueTypeId="90d85861-b1f7-41b8-8163-2ec787602b7b"/>
+    <recordSetType typeId="c535ea04-6bfb-4df2-b447-302f004a5c14" valueTypeId="9fec978c-7441-4512-9ee1-622f433b8b2d"/>
+    <recordKeyType typeId="171938b4-8fcd-405b-a5a2-0343b8d36452" valueTypeId="bb679532-45ec-44a1-b08a-1570aca765fe"/>
+    <recordType typeId="0532bba9-b2ec-48d4-9ab6-4dd6d15b5026" valueTypeId="7975e713-29db-4d40-8846-24236995ce0f"/>
+  </producedTypes>
+  <name>БюджетМаркетингаHR</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бюджет маркетинга HR</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="705c4395-eee4-424f-a204-b6cced1bb0b8">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="845ec03f-a6d7-4ebf-a3ef-42f40bda949c">
+    <name>ИсточникПривлечения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник привлечения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИсточникПривлечения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="db63d7e7-226a-430b-8f6c-d64f29f0ca9a">
+    <name>СтатьяЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья затрат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиЗатратНаПодбор</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

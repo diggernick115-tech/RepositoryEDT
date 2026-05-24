@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d860083-26bc-4e6b-8399-ed661be11a35">
+  <name>ВакансииИКандидаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вакансии и кандидаты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Кандидаты</content>
+  <content>Catalog.Вакансии</content>
+  <content>Catalog.Резюме</content>
+</mdclass:Subsystem>

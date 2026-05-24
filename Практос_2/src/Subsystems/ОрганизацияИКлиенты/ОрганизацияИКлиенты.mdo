@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d54e18ce-38ad-4afd-9bf8-64ea87bcae1e">
+  <name>ОрганизацияИКлиенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организация и клиенты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.Договор</content>
+  <content>Document.ЗаявкаНаПодбор</content>
+  <content>Catalog.Клиенты</content>
+  <content>Catalog.СистемаНалогообложения</content>
+  <content>Constant.ИННОрганизации</content>
+  <content>Constant.НазваниеОрганизции</content>
+  <content>Constant.СистемаНалогооблажения</content>
+  <content>CommonForm.ФормаОрганизации</content>
+</mdclass:Subsystem>

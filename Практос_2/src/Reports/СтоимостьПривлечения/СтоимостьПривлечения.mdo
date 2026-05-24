@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8987683-5528-44e1-a497-ac3484cee7e1">
+  <producedTypes>
+    <objectType typeId="79d812cf-4e42-441b-9f03-7af4a5ddeef6" valueTypeId="d49e4ca0-5baa-414c-b277-9a190d9cc14b"/>
+    <managerType typeId="92cb31a0-247b-499d-9798-c14203fceb5f" valueTypeId="63a52ff7-dc50-43f7-bbbe-80f0df46b6a4"/>
+  </producedTypes>
+  <name>СтоимостьПривлечения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стоимость привлечения одного кандидата</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СтоимостьПривлечения.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="10517fd5-8610-4c46-bc5f-1cd7a5b25c30">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

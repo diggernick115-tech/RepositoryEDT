@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6953300-dc9a-4552-8629-bcfa713352a9">
+  <producedTypes>
+    <objectType typeId="2690e1fa-e120-4dbc-a03d-16887b45efc3" valueTypeId="18a6f30c-1c8d-4179-9ffe-779670fa7eb7"/>
+    <managerType typeId="a782423d-ccf2-4118-b478-ad9a6e4e4343" valueTypeId="969d2604-9690-4710-9f41-9b1fe0c66f93"/>
+  </producedTypes>
+  <name>РабочееМестоРекрутера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочее место рекрутера</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РабочееМестоРекрутера.Form.Форма</defaultForm>
+  <attributes uuid="bf412a13-7d56-44c0-9a87-a04e6062d7e0">
+    <name>ТекущаяВакансия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущая вакансия</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаявкаНаПодбор</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8fd5782d-f116-4629-961a-47e1a9dcb8de">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8201e178-ea12-4c19-a11f-7e08ba1dd9e7">
+    <name>Открыта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открыта</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Заявка только появилась, никто из hr е не взял</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b0e5eeb5-f4d4-43e6-87f9-d4c7b6a822d1">
+    <name>ПоискСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск сотрудника</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вакансия взята в работу, идет поиск</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2be0cbb8-5598-48eb-ad37-a9f198fc8145">
+    <name>ВОжидании</name>
+    <synonym>
+      <key>ru</key>
+      <value>В ожидании</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ждем Выхода нового сотрудника или принимаем решение по кандидату</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="def0f865-85ad-4422-94ae-b1580b365647">
+    <name>Отменена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменена</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fe50604b-ac82-4b1f-9ea2-468d01b74ed2">
+    <name>Закрыта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыта</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="b9bab29a-7fdb-417d-a80e-84f465cf38ee">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

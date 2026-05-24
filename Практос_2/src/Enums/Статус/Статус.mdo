@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a09a6566-06ea-4e20-be5b-09dab9b2cfaa">
+  <producedTypes>
+    <refType typeId="856c10bd-b7a7-4899-95e0-51c98d2ce781" valueTypeId="bcedec1f-3b01-49af-81ec-16da378443de"/>
+    <listType typeId="562a35bb-15d8-4d9d-ae9f-09cd2b9053c1" valueTypeId="1923f7bd-5295-487d-92bd-d5f529368faf"/>
+    <managerType typeId="4c48af78-063f-4639-bc2f-52c91dc43add" valueTypeId="6ad4468d-b8a8-4fc8-acb0-cf7b38a6eede"/>
+  </producedTypes>
+  <name>Статус</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c9423665-c6a4-4b0b-8a81-d62b40a04dfb">
+    <name>ВОжидании</name>
+    <synonym>
+      <key>ru</key>
+      <value>В ожидании</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d91b528a-f79a-47fe-8e85-12eeb599dc97">
+    <name>СобеседованиеНазначено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собеседование назначено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a09293a2-0a39-4a09-a1f8-8d6a3e5f698e">
+    <name>Отказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отказ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b43f7311-99f1-4f11-886b-6703e7085d4a">
+    <name>СогласованиеПриемаНаРаботу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласование приема на работу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a9083108-a24f-41f2-817f-e728639702d3">
+    <name>Трудоустроен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Трудоустроен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

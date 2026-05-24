@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27aea949-7000-4bbd-9fcc-67bf3c16318d">
+  <producedTypes>
+    <objectType typeId="dfe628f9-981e-4978-9c1d-cb1f8b2cef4e" valueTypeId="113c5329-f65f-4b29-836f-279e8bab79b0"/>
+    <managerType typeId="3fbc66c4-b2aa-402e-a4b7-d706ef665e71" valueTypeId="9c611f28-75db-4c7c-b885-a9542c74198b"/>
+  </producedTypes>
+  <name>Отмены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ причин отмены вакансий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.Отмены.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <explanation>
+    <key>ru</key>
+    <value>Объекты: РС ИсторияКандидатов, Справочник Кандидаты, Справочник ПричиныОтказа.
+Суть: Считает конверсию переходов кандидатов с этапа на этап и выявляет, на каком шаге и почему происходит наибольший отсев.</value>
+  </explanation>
+  <templates uuid="b931da6f-778a-4b4d-9a31-55b3f5efca37">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbfd1f5a-3564-4d1b-8dc5-e351f6b27ffc">
+  <producedTypes>
+    <managerType typeId="7bbcd489-8f9d-44a4-8a72-a27a4c65274c" valueTypeId="f45e843a-3837-4749-a00a-2a42e9beb98d"/>
+    <valueManagerType typeId="bc155529-97f0-4f16-8d22-e679392d12da" valueTypeId="f380848b-5eba-4e51-8381-0f11e7932e5c"/>
+    <valueKeyType typeId="d8658e2b-1e46-48e5-8314-3eeeb5a95d74" valueTypeId="bf2b55a9-50b2-41f3-b3de-61eb4bbdc63d"/>
+  </producedTypes>
+  <name>СистемаНалогооблажения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Система налогооблажения</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СистемаНалогообложения</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

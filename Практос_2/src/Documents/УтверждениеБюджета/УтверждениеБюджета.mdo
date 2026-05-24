@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93e70396-9090-4f19-8aa4-2fce3eea036b">
+  <producedTypes>
+    <objectType typeId="59d9bed0-2a5d-40db-92fa-8660f5866132" valueTypeId="bbde7dc8-e6fb-4153-b1ac-1b8f14f6af42"/>
+    <refType typeId="6e8b0c53-827b-47ff-a7b8-89f636b0cd00" valueTypeId="86fcbb80-063d-4e17-b05c-57171bc22833"/>
+    <selectionType typeId="228b1a47-98b4-45d9-89b5-6e38dca6a92d" valueTypeId="7113edc2-db5a-4720-972a-8540c2258419"/>
+    <listType typeId="3f004d3b-9ca0-454b-a4f4-004ca6b47eef" valueTypeId="77c32b34-4ec1-4e83-9373-a2a713ddf2e8"/>
+    <managerType typeId="34e70f88-0c5d-4077-acc4-625fc99e9113" valueTypeId="98167449-deac-4d99-b1c3-30dbdc95a8be"/>
+  </producedTypes>
+  <name>УтверждениеБюджета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Утверждение бюджета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УтверждениеБюджета.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УтверждениеБюджета.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.БюджетМаркетингаHR</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="aa8bf1aa-75e4-47b4-9d6c-1cf9f51d77e3">
+    <name>ПериодБюджета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период бюджета</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="95fc80c7-9fd8-43bc-81db-d8c5e49b930d">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="24fc24d3-0c0f-46e1-96d6-900ef023cd48">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="24f8b29a-67fb-480d-856c-c54f7ff98530">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e3df9008-5fe3-47bf-8198-cd8c9aab55b1">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="bc7a7861-5443-47f8-91ad-5fd17493b59c">
+    <producedTypes>
+      <objectType typeId="3eb3bc80-461b-4535-afdb-3e162a63f136" valueTypeId="047f0e83-1099-4946-bae7-9dd2441683f0"/>
+      <rowType typeId="69454692-7978-42eb-8ee6-a31b8868cdb9" valueTypeId="a3537c02-7202-4f05-bfce-67967495cfb8"/>
+    </producedTypes>
+    <name>СоставБюджета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав бюджета</value>
+    </synonym>
+    <attributes uuid="c846437f-bb40-454f-8f0b-7419ba2ff7d5">
+      <name>ИсточникПривлечения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Источник привлечения</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ИсточникПривлечения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9b900895-6c1a-4850-85a3-941e1e8c7d84">
+      <name>СтатьяЗатрат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статья затрат</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтатьиЗатратНаПодбор</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fe6ae7a8-a65a-4559-aec7-069f40cfc7b0">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>

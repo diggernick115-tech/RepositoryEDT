@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39cea94a-a362-4d23-979e-48f2bcaf781a">
+  <producedTypes>
+    <objectType typeId="ce1be09c-ccc8-4103-bbdc-820fb1165202" valueTypeId="76fd302b-e6eb-4ba9-8cec-fe69be6b8754"/>
+    <refType typeId="13acf280-db90-4157-a34c-cdbe85b26fd2" valueTypeId="bfa43601-e888-45b7-954a-e6cb0cc2afc2"/>
+    <selectionType typeId="95207bdb-b257-4b5e-8638-cd629bc04fa6" valueTypeId="75660d9f-431f-4219-b20f-af25374ea0d6"/>
+    <listType typeId="a5b5f00e-9c64-4998-977e-a8f342eaf41f" valueTypeId="8468c708-0c01-4d41-9ff7-5927c8cbcf59"/>
+    <managerType typeId="e33c714e-4d59-4eb3-9c47-3068d4ec4d6e" valueTypeId="2edd069f-6952-409e-95f7-1e2c3e52d78d"/>
+  </producedTypes>
+  <name>ЗаявкаНаПодбор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявка на подбор</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗаявкаНаПодбор.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗаявкаНаПодбор.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ЗаявкаНаПодбор.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.ПланВакансий</registerRecords>
+  <registerRecords>AccumulationRegister.ПоступленияДС</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="c1f4e208-0727-4b7a-85ca-5a78a4326fb8">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="672d3f24-73de-4916-a169-edc721ef311f">
+    <name>Рекрутер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекрутер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e6b64ba0-8d7c-46f7-8d2f-24003fff00b3">
+    <name>ДатаСрочности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата срочности</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="42d274a0-a1c5-4726-b599-894a90331883">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Вакансии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="09e6caa6-1eac-4094-a3da-0d74dddfabb0">
+    <name>ПредлагаемыйОклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предлагаемый оклад</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Рубли</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cc1ec273-bafb-4729-9731-44adfb864224">
+    <name>Премия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Премия</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Рубли</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="45cd2e40-12ee-4660-8722-afaeb13fb1d7">
+    <name>ЗарплатаДоВычета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарплата до вычета</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Рубли</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="41b763d1-8f08-4d18-9311-3b7f13d65ed5">
+    <name>ЗарплатаПослеВычета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарплата после вычета</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Рубли</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2d1fe846-c0f1-4fb4-9433-77bb6df389c3">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c9e78885-679c-42c1-9f0b-5ae7845ddf7a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbbba90b-e7d3-422a-a332-858c62acb731">
+  <producedTypes>
+    <objectType typeId="0c7c9d88-9ad7-4e63-b351-644a29995c1c" valueTypeId="8e7e6aa4-a740-49e2-abfe-f028951c07c5"/>
+    <refType typeId="3d89aa01-6111-43fd-b0df-426dbdd8f1bb" valueTypeId="abc54c2a-bc0b-44d9-a2a0-b0f50f70a82c"/>
+    <selectionType typeId="156adb10-a21e-47b7-941a-af95f1dc5887" valueTypeId="db54d05b-438d-42ca-ad5e-996fc674659e"/>
+    <listType typeId="124d5522-c4f5-4d27-b389-1da10d8f393e" valueTypeId="2e3238a6-2213-4486-a7e1-05a9ee3312ed"/>
+    <managerType typeId="8d325179-622f-44b4-9fc6-64bee856d701" valueTypeId="beae90c4-7203-4543-a603-456514bdc146"/>
+  </producedTypes>
+  <name>ИсточникПривлечения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источник привлечения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИсточникПривлечения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ИсточникПривлечения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ИсточникПривлечения.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="dfa410ea-09a0-496c-8152-50ec9e0a4257">
+    <name>ИсточникПривлечения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник привлечения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ИсточникПривлечения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8ae6855b-a772-4adf-adad-df275f4b520c">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="115df024-bc67-4c1e-ba2c-f33e35e537dc">
+    <name>СтатьяЗатратПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья затрат по умолчанию</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиЗатратНаПодбор</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подставляется автоматически в документ ПубликацияВакансии при выборе этого источника (для удобства пользователя).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2b248c9c-51f4-4edb-ae30-2048624f7aa4">
+    <name>АдресСайта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес сайта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Web-ссылка на ресурс (например, https://hh.ru)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="65b15443-883a-4395-a704-e21d70d3fdba">
+    <name>Активен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="56077733-70a1-4a85-a5b0-02013c4dfc0f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

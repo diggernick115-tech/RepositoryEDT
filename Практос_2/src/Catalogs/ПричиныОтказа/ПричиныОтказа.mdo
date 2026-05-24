@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7adfb7c-e32a-4976-9405-29b87ce340bf">
+  <producedTypes>
+    <objectType typeId="f555269b-e6be-4a8c-b62b-bbf688a849e9" valueTypeId="2fd04921-9d5f-445e-92ea-ae9ce0533bf8"/>
+    <refType typeId="cac820a6-a51b-4e73-a4a1-62a7fca3727b" valueTypeId="771fef48-1748-4f06-a175-c9afcba7ffa7"/>
+    <selectionType typeId="c876a345-00b3-4957-a444-953c0c567e7c" valueTypeId="2e1285ce-71bb-4bea-aace-3d176870cb2f"/>
+    <listType typeId="4655776f-48c1-410c-9f5e-f393d7ffe799" valueTypeId="1d84ed61-f9b8-4fcd-a3aa-18da2e2b2915"/>
+    <managerType typeId="72b38d0a-71df-453b-bf4b-775061cd21b8" valueTypeId="869f7112-792a-48f0-ae23-a60f08bcf4e4"/>
+  </producedTypes>
+  <name>ПричиныОтказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины отказа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПричиныОтказа.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПричиныОтказа.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

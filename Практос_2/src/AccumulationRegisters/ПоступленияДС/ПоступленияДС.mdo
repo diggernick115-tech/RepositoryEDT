@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="696f0176-52df-41dc-9334-25ef705a1b7b">
+  <producedTypes>
+    <selectionType typeId="680e9d02-4051-4ec0-83f5-8ee08d087947" valueTypeId="ae56ef31-c58e-4f5a-b162-56bc6b9434d3"/>
+    <listType typeId="e1d920c9-9e77-4a7d-8532-bdf5d73b52da" valueTypeId="89df5843-2dd2-4b4a-8c06-3fcf35cf3399"/>
+    <managerType typeId="340fbda8-4996-4615-877a-6d116730776e" valueTypeId="f0a496e3-321a-4b8b-8afd-4d82df0ff245"/>
+    <recordSetType typeId="f171ea62-979d-44a7-929f-4f5dd836e38c" valueTypeId="a8e81742-2dd1-4222-9984-fd622ec50274"/>
+    <recordKeyType typeId="9e48eac4-f71c-4da9-baa5-9721e5f777f0" valueTypeId="13db371b-53d5-4fa2-bb9a-7160402253f7"/>
+    <recordType typeId="9b123c57-399c-4439-8559-b9f38882c6a4" valueTypeId="b1989276-bb4f-4283-89d0-7ea2b88fefa3"/>
+  </producedTypes>
+  <name>ПоступленияДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступления ДС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="5d22df15-72cd-44cf-b852-0df6b6263850">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Рубли</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="372095e5-97fe-4c66-962a-974ba421497d">
+    <name>СписаниеСредствНаПодбор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание средств на подбор</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.СписаниеСредствНаПодбор</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="529657e5-1707-4222-b436-25bfa96676a8">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Договор</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

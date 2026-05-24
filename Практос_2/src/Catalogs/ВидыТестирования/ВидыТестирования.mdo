@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3be32d44-fac3-47d5-b0bc-55fd3e063129">
+  <producedTypes>
+    <objectType typeId="3099c758-749a-4607-8c63-3f31659a7086" valueTypeId="2d25cb50-09b0-4b98-b133-e03dc1477890"/>
+    <refType typeId="30df7797-18df-46e3-92f8-714aad6fe442" valueTypeId="561cec9e-fcf6-4bd8-91dd-8b6626c93919"/>
+    <selectionType typeId="16c06cbd-ecfb-4ba3-b46f-9d386deb5423" valueTypeId="aa0d8e85-2ed2-4ec6-bcfd-f6d0b8e32b4d"/>
+    <listType typeId="3469be73-b005-423c-89d4-73a9f860422c" valueTypeId="f1f88441-0b21-4f54-aeb6-fdedc7d07d30"/>
+    <managerType typeId="df386953-3605-4844-956b-7059ec82668e" valueTypeId="08b2ba95-ceaf-46ce-aef6-57ba5f9dcd6a"/>
+  </producedTypes>
+  <name>ВидыТестирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды тестирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыТестирования.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыТестирования.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

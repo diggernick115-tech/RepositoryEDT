@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b711362f-f0af-4c33-9ca2-f7e286458de8">
+  <producedTypes>
+    <objectType typeId="7557255f-598f-4974-ab51-1dac20e80e0a" valueTypeId="2019e912-4f02-4de2-8dfc-ef1525312950"/>
+    <refType typeId="856992fa-d4fb-4d89-962d-ec4d06fe15fd" valueTypeId="77e6119f-3930-4933-a13c-bdadd1c7ef47"/>
+    <selectionType typeId="9beb8b41-1ca3-45fc-8792-3c42c5e21262" valueTypeId="eedde30e-40fa-42ce-9139-cbc11a45d4e5"/>
+    <listType typeId="37d24631-faa4-4f8d-a359-d132e5bd7c04" valueTypeId="fc1bb378-f7c3-4ad7-878d-d6c3aa741185"/>
+    <managerType typeId="6fcb7fa0-8485-4a14-ae51-3a951df965f8" valueTypeId="3a9ce955-f1e7-478e-8122-eb0f7660e243"/>
+  </producedTypes>
+  <name>НазначениеИнтервью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Назначение интервью</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.НазначениеИнтервью.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.НазначениеИнтервью.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.ИсторияКандидатов</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="64a026ca-a61f-4dce-9270-ba06816713e6">
+    <name>Кандидат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кандидат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кандидаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="17eaa616-0e65-458f-b628-d63a62b3fa34">
+    <name>Рекрутер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекрутер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="77329e6b-91ef-4cb4-a9e0-da66ed0dc90b">
+    <name>Вакансия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вакансия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Вакансии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7fbe3bf9-4f93-4f92-a2e0-52bdde9ce557">
+    <name>ЭтапПодбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этап подбора</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Статус</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d8e203e5-4b67-435d-abd8-a2828ec9b67b">
+    <name>ДатаСобеседованияИВремя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата собеседования и время</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ef4cf4ab-7030-415a-a1f2-d1b6248a3645">
+    <name>ПубликацияВакансии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Публикация вакансии</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПубликацияВакансии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>Use</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="9d1adb54-7d2c-4aac-9c78-c0b0d831ca81">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

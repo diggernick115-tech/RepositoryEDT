@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e554601f-03df-49d9-a2d8-f2a8c56184f0">
+  <producedTypes>
+    <objectType typeId="2911883d-80b0-465c-b367-4c80c8859862" valueTypeId="4c0aa222-c7c7-4de2-b536-08443986273f"/>
+    <refType typeId="105fd6c6-8745-4fd5-8d8e-9adaf0e762cf" valueTypeId="4dd101e9-1f96-4597-ab03-581f01e9bd62"/>
+    <selectionType typeId="36dfbf81-dffd-4720-ae58-fc6e4ac467ef" valueTypeId="a00daa99-a2f3-4be2-8d82-47af092dfd4a"/>
+    <listType typeId="062c5eb2-ebf3-4a9b-ac26-8df02c81b02c" valueTypeId="4787c179-5491-4681-bff3-b20afd93009a"/>
+    <managerType typeId="99f8a32c-ef61-405c-8b7b-b481b1e7089c" valueTypeId="c4ca854c-f24a-4e0c-9b01-6fe8db5e753e"/>
+  </producedTypes>
+  <name>Договор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договор</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Договор.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Договор.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ПоступленияДС</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="0ca6d587-7a96-4aa1-9c85-cfba101dfdd2">
+    <name>Оргнанизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оргнанизация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="984a8d5c-dc8b-43c4-aae7-4b2a5e4fc6ef">
+    <name>ИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d1374a35-e115-4484-9092-c0c79f4e2179">
+    <name>СуммаДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма договора</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Рубли</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c13f2dca-2960-4bdf-9c1d-24afbe0b16c2">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

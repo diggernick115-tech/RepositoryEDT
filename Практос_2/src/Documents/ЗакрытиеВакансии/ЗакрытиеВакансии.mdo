@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="951582ea-76aa-4672-8505-29d860f43e7e">
+  <producedTypes>
+    <objectType typeId="3d3eabe2-6dc6-43a7-8280-9b13d2a0e94e" valueTypeId="cfc4f748-a547-44b3-87c6-c5fd42ae23d2"/>
+    <refType typeId="b4cf29d0-f723-479d-92b6-9b12f900db93" valueTypeId="4e6bfc3f-e1ec-462d-ad54-6d387f70dfcb"/>
+    <selectionType typeId="d73718c8-e219-40e2-bd5e-3882b1077c2a" valueTypeId="9b5c64c9-e372-4ed9-a8d4-72f7e9495577"/>
+    <listType typeId="2726e6d9-4c38-4cf0-82ea-b570b801d931" valueTypeId="c27d9474-2c6a-494e-8600-129991ce8fc2"/>
+    <managerType typeId="70f87ee3-22c5-4bbe-a51f-8b54a0f8bb2a" valueTypeId="be76e6be-4022-4194-ac1f-fafd2442d761"/>
+  </producedTypes>
+  <name>ЗакрытиеВакансии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрытие вакансии</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗакрытиеВакансии.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.ПубликацияВакансии</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗакрытиеВакансии.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ПланВакансий</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="5ad61252-92b8-47b6-87c7-93464bd607a4">
+    <name>Вакансия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вакансия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Вакансии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="27f8646f-f60c-4f77-a399-416ba5ae6601">
+    <name>СтатусЗакрытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус закрытия</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Статус</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="839f907a-4517-4ae9-a233-0a5e24107d0e">
+    <name>ПричинаЗакрытияОтмены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина закрытия отмены</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9ab05135-dc6c-4340-a40e-90506edaf6e6">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="aebacc78-eda1-4973-8965-213669d69d2f">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f1bad4b6-9fc6-4f00-be41-a6ea5bd95c9e">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c3f4ca51-09e5-4773-810f-45539502ae7b">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>
